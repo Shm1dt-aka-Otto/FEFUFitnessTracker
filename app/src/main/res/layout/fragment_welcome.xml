@@ -8,8 +8,8 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:src="@drawable/bicycle"
         android:contentDescription="@string/description"
         app:layout_constraintBottom_toTopOf="@+id/titleTextView"
@@ -20,8 +20,10 @@
 
     <TextView
         android:id="@+id/titleTextView"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
         android:layout_margin="16dp"
         android:text="@string/title_main"
         android:textAlignment="center"
@@ -46,8 +48,8 @@
 
     <Button
         android:id="@+id/btnSignUp"
-        android:layout_width="217dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:backgroundTint="@color/purple_500"
         android:letterSpacing="0"
