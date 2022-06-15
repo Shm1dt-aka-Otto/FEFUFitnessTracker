@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.fefufitnesstracker.ui.WelcomeFragment"
+        android:name="com.example.fefufitnesstracker.ui.login.WelcomeFragment"
         android:label="WelcomeFragment" >
         <action
             android:id="@+id/action_welcomeFragment_to_signUpFragment"
@@ -25,11 +25,11 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.fefufitnesstracker.ui.SignInFragment"
+        android:name="com.example.fefufitnesstracker.ui.login.SignInFragment"
         android:label="SignInFragment" >
         <action
-            android:id="@+id/action_signInFragment_to_trackFragment"
-            app:destination="@id/trackFragment"
+            android:id="@+id/action_signInFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
             app:popUpTo="@id/navigation_graph"
             app:popUpToInclusive="true"
             app:enterAnim="@anim/nav_default_enter_anim"
@@ -39,11 +39,11 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.fefufitnesstracker.ui.SignUpFragment"
+        android:name="com.example.fefufitnesstracker.ui.login.SignUpFragment"
         android:label="SignUpFragment" >
         <action
-            android:id="@+id/action_signUpFragment_to_trackFragment"
-            app:destination="@id/trackFragment"
+            android:id="@+id/action_signUpFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
             app:popUpTo="@id/navigation_graph"
             app:popUpToInclusive="true"
             app:enterAnim="@anim/nav_default_enter_anim"
@@ -52,8 +52,8 @@
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
-        android:id="@+id/trackFragment"
-        android:name="com.example.fefufitnesstracker.ui.TrackFragment"
-        android:label="TrackFragment" />
+        android:id="@+id/mainFragment"
+        android:name="com.example.fefufitnesstracker.ui.MainFragment"
+        android:label="MainFragment" />
 
 </navigation>

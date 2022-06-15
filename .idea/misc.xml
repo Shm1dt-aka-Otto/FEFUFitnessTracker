@@ -3,6 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable-v24/ic_arrow.xml" value="0.1105" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable-v24/ic_trash.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable/ic_arrow.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable/ic_sports.xml" value="0.208" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/drawable/ic_trash.xml" value="0.124" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/activity_card.xml" value="0.45286885245901637" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/activity_date.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/activity_main.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_activity.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_activity_detail.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_activity_details.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_activity_my.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_activity_users.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_login.xml" value="0.16757246376811594" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_main.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_profile.xml" value="0.21195652173913043" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_registration.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/layout/fragment_welcome.xml" value="0.16757246376811594" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/menu/toolbar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/FEFUFitnessTracker/app/src/main/res/menu/track_bottom_menu.xml" value="0.24010416666666667" />
         <entry key="..\:/FEFUFitnessTracker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/FEFUFitnessTracker/app/src/main/res/drawable/ic_back_button.xml" value="0.2595" />
         <entry key="..\:/FEFUFitnessTracker/app/src/main/res/drawable/ic_baseline_fitness_center_24.xml" value="0.1" />

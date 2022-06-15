@@ -5,7 +5,8 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.fefufitnesstracker.R
 
-class TrackFragment  : Fragment(R.layout.fragment_activity) {
+
+class ProfileFragment : Fragment(R.layout.fragment_profile) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     }

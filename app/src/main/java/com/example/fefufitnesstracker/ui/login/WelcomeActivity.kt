@@ -1,4 +1,4 @@
-package com.example.fefufitnesstracker.ui
+package com.example.fefufitnesstracker.ui.login
 
 import android.os.Bundle
 import android.util.Log

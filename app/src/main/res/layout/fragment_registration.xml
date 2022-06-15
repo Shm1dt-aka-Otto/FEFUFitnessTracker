@@ -109,7 +109,6 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="18dp"
                 android:text="@string/sex"
-                android:textColor="@color/dark"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:typeface="normal"
@@ -149,7 +148,7 @@
                     android:text="@string/radiobutton_else" />
             </RadioGroup>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
