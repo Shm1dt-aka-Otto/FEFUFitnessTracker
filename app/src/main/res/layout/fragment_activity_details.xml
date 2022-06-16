@@ -40,7 +40,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:text="@string/distance"
-        android:textColor="@color/dark"
+        android:textColor="?android:textColorPrimary"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +54,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="16dp"
         android:text="@string/date"
+        android:textColor="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/distance" />
 
@@ -65,7 +66,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:text="@string/period"
-        android:textColor="@color/dark"
+        android:textColor="?android:textColorPrimary"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +80,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="4dp"
         android:text="@string/start"
-        android:textColor="@color/dark"
+        android:textColor="?android:textColorPrimary"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/period" />
@@ -91,6 +92,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:text="@string/time_start"
+        android:textColor="@color/gray"
         android:textSize="16sp"
 
         app:layout_constraintStart_toEndOf="@+id/start"
@@ -113,7 +115,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:text="@string/finish"
-        android:textColor="@color/dark"
+        android:textColor="?android:textColorPrimary"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@id/separator"
         app:layout_constraintTop_toBottomOf="@id/period" />
@@ -125,6 +127,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:text="@string/time_finish"
+        android:textColor="@color/gray"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/finish"
         app:layout_constraintTop_toBottomOf="@id/period" />
