@@ -20,11 +20,10 @@ class TrackDetailsFragment : Fragment(R.layout.fragment_activity_details) {
     private val typeActivity by lazy { args.typeActivity }
     private val dateActivity by lazy { args.dateActivity }
     private val nickname by lazy { args.nickname }
+    private val cardType by lazy { args.cardType }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        val typeCardActivity = CardType.values()[arguments?.getInt("CardType")!!];
 
         val toolbar = view.findViewById<Toolbar>(R.id.toolbar)
         toolbar.title = typeActivity
@@ -37,7 +36,7 @@ class TrackDetailsFragment : Fragment(R.layout.fragment_activity_details) {
         nick.text = nickname
         nick.visibility = View.GONE;
 
-        if (typeCardActivity == CardType.USERS) {
+        if (cardType == CardType.USERS) {
             val comment = view.findViewById<TextInputLayout>(R.id.comment)
             comment.isEnabled = false
             comment.isFocusable = false
