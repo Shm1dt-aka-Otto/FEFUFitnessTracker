@@ -1,4 +1,4 @@
-package com.example.fefufitnesstracker.ui
+package com.example.fefufitnesstracker.ui.login
 
 import android.os.Bundle
 import android.text.SpannableString
@@ -52,7 +52,7 @@ class SignUpFragment : Fragment(R.layout.fragment_registration) {
         }
 
         view.findViewById<Button>(R.id.btnSignUp).setOnClickListener {
-            findNavController().navigate(R.id.action_signUpFragment_to_trackFragment)
+            findNavController().navigate(R.id.action_signUpFragment_to_mainFragment)
         }
     }
 }

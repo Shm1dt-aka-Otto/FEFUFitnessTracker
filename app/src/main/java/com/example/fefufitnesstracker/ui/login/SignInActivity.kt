@@ -1,4 +1,4 @@
-package com.example.fefufitnesstracker.ui
+package com.example.fefufitnesstracker.ui.login
 
 import android.os.Bundle
 import android.view.View
@@ -20,7 +20,7 @@ class SignInFragment : Fragment(R.layout.fragment_login) {
         }
 
         view.findViewById<Button>(R.id.btnLogin).setOnClickListener {
-            findNavController().navigate(R.id.action_signInFragment_to_trackFragment)
+            findNavController().navigate(R.id.action_signInFragment_to_mainFragment)
         }
     }
 }
