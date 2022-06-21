@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.fefufitnesstracker.ui.ProfileFragment"
+        android:name="com.example.fefufitnesstracker.ui.login.profile.ProfileFragment"
         android:label="ProfileFragment" />
     <fragment
         android:id="@+id/trackFragment"
